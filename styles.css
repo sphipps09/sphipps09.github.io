@@ -1,0 +1,37 @@
+
+.navbar-dark .navbar-brand {
+    color: #405dfd;
+}
+
+.display-4 {
+    margin-top: 30px;
+    position: absolute;
+    color: white;
+    text-decoration:bold;
+}
+
+container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.m-md-3 {
+    margin: 0rem!important;
+}
+
+.flex-md-equal > * {
+    flex: auto;
+}
+
+.position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-image{
+    background-size:contain;
+}
+
+.slide {
+   width: 90%;
+   height: auto;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <!-- Required Bootstrap meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+        <!-- Bootstrap JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+        <!-- CSS -->
+        <link href="styles.css" rel="stylesheet">
+
+        <title>Borderline Racing</title>
+    </head>
+    <body>
+        <div class = "container-fluid">
+          <!--navbar from https://getbootstrap.com/docs/5.1/components/navbar/-->
+          <div class = "row">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="index.html" id="brand">Borderline Racing</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="register.html">Register</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="photos.html">Photos</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+
+          <div class = "row">
+
+          <!--upper hero image from https://getbootstrap.com/docs/5.1/examples/heroes/-->
+           <div class="px-4 py-5 my-5 text-center bg-image" style = "background-image: url('media/team.jpg');">
+              <h1 class="display-5 fw-bold">Get Involved!</h1>
+              <div class="col-lg-6 mx-auto">
+                <p class="lead mb-4">How to coach, volunteer, sign up, and get in contact!</p>
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                </div>
+              </div>
+            </div>
+          </div>
+
+            <!--bottom columns from https://getbootstrap.com/docs/5.1/examples/product/-->
+            <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+              <div class="bg-danger me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+                <div class="my-3 py-3">
+                  <h2 class="display-5">Contact us via email!</h2>
+                  <p class="lead">We can be reached at borderlinemtb@gmail.com</p>
+                  <!--mailto link shown by https://www.w3docs.com/snippets/html/how-to-create-mailto-links.html-->
+                  <a class="btn btn-info" id = "emailbtn" href="mailto:borderlinemtb@gmail.com" role="button">Email us!</a>
+                </div>
+                
+                <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+                  <img id="ctl00_siteLogo_imgLogo" class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Gmail_Icon_%282013-2020%29.svg/2560px-Gmail_Icon_%282013-2020%29.svg.png"
+                  alt="gmail" style = "margin-top: 50px; width:150px; height:auto;">
+                </div>
+              </div>
+              <div class="bg-success me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+                <div class="my-3 p-3">
+                  <h2 class="display-5">Register BikeREG</h2>
+                  <p class="lead">Registration is only open during a certain time.</p>
+                  <a class="btn btn-info" id = "bikeregbtn" href="https://www.bikereg.com/vtyc2022allteamsandcoaches" role="button">BikeREG</a>
+
+                </div>
+                <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 270px; border-radius: 21px 21px 0 0;">
+                  <img id="ctl00_siteLogo_imgLogo1" class="logo" src="https://images.squarespace-cdn.com/content/v1/54409810e4b05dc33c6848c2/1447546441417-UV2M63FCW0346VEOFIHV/bikereg-logo.jpg"
+                  alt="BikeReg" style = "margin-top: 20px; height:190px; width:auto;">
+                </div>
+              </div>
+              
+              <div class="bg-warning me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+                <div class="my-3 p-3">
+                  <h2 class="display-5">See the league</h2>
+                  <p class="lead">Check out VTYC for race dates and how to volunteer!</p>
+                  <a class="btn btn-info" id = "vtycbtn" href="https://www.vtyouthcycling.org/registration" role="button">VTYC</a>
+                </div>
+                <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+                    <img src="
+                    //images.squarespace-cdn.com/content/v1/6005bdd03753c24df248b79e/1612876566786-EJO7JOR2DD3EGP678EWV/VTYouthCycling-LowRes-Logo.png?format=1500w
+                  " alt="VT Youth Cycling" style = "height: 200px; width:auto;">
+                </div>
+              </div>
+            </div>
+        </div>
+    </body>
+    <script>
+      // site redirect notices for buttons
+      document.addEventListener('DOMContentLoaded', function() {
+
+        let email = document.querySelector('#emailbtn');
+        email.addEventListener('click', function() {
+          console.log("email click");
+          alert("This page is redirecting your to your default email. Press ok to continue");
+        });
+
+
+        let bikereg = document.querySelector('#bikeregbtn');
+        bikereg.addEventListener('click', function() {
+          console.log("bikereg click");
+          alert("This page is redirecting your to www.bikereg.com. Press ok to continue");
+        });
+
+        let vtyc = document.querySelector('#vtycbtn');
+        vtyc.addEventListener('click', function() {
+          console.log("vtyc click");
+          alert("This page is redirecting your to vtyouthcycling.org. Press ok to continue");
+        });
+
+      });
+
+  </script>
+</html>

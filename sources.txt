@@ -1,0 +1,10 @@
+https://www.w3schools.com/howto/howto_css_image_text.asp
+https://www.w3schools.com/css/css3_images.asp
+https://www.w3schools.com/css/css3_object-fit.asp
+https://mdbootstrap.com/docs/standard/content-styles/background-image/
+https://getbootstrap.com/docs/5.1/components/navbar/
+https://stackoverflow.com/questions/9262861/css-background-image-to-fit-width-height-should-auto-scale-in-proportion
+https://getbootstrap.com/docs/5.1/examples/product/
+https://www.w3docs.com/snippets/html/how-to-create-mailto-links.html
+https://commons.wikimedia.org/wiki/File:Gmail_Icon_(2013-2020).svg
+https://images.squarespace-cdn.com/content/v1/54409810e4b05dc33c6848c2/1447546441417-UV2M63FCW0346VEOFIHV/bikereg-logo.jpg
